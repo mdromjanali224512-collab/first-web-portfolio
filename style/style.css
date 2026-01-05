@@ -1,0 +1,45 @@
+ *{
+  padding: 0;
+  margin: 0;
+ }
+ 
+ .open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+  background: rgba(255, 248, 243, 1);
+}
+ul li{
+  list-style: none;
+
+}
+ul li a{
+  text-decoration: none;
+   color: rgba(0, 0, 0, 1);
+}
+.r{
+  color: rgba(253, 110, 10, 1);
+}
+.mary{
+font: bold;
+font-size: 45px;
+}
+.menu{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.hire{
+  background: rgba(253, 110, 10, 1);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+}
