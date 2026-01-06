@@ -2,13 +2,31 @@
   padding: 0;
   margin: 0;
  }
+.width{
+  max-width: 1000px;
+  margin: auto;
+}
+ /* shere code */
+ .hire{
+  background: rgba(253, 110, 10, 1);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
  
+
  .open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 header{
   background: rgba(255, 248, 243, 1);
+  background: url("../images/developer.png"), url('../images/header_bg.png');
+  background-position:top left , bottom right;
+  background-repeat: no-repeat;
+
 }
 ul li{
   list-style: none;
@@ -36,10 +54,72 @@ font-size: 45px;
   justify-content: space-around;
   
 }
-.hire{
-  background: rgba(253, 110, 10, 1);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  color: aliceblue;
+/* banner */
+.hi{
+  color: rgba(71, 71, 71, 1);
+  font-size: 30px;
+  font-weight: 400
+}
+.marry{
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+}
+#main-container{
+
+}
+.image{
+width: 584px; 
+vertical-align: middle;
+}
+.baner-container{
+  display: flex ;
+  align-items: center;
+  width: 900px;
+  margin-left: auto;
+}
+.baner-container img{
+  width: 400px;
+}
+.p{
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.text{
+  max-width: 50%;
+}
+/* about me */
+.about{
+  text-align: center;
+  background: #FFF8F3;
+  margin: 80px 100px;
+  padding: 40px 60px;
+
+  
+}
+.about p{
+color: #757575;
+font-size: 15px;
+text-align: justify;
+margin: 15px 0;
+}
+.about h1{
+  font-size: 30px;
+  color:#181818 ;
+  
+}
+.about-info{
+  display: flex;
+
+justify-content: space-between;
+}
+.about-info h3{
+  color: #757575;
+  font-size: 18px;
+}
+.about-info b{
+  color: #474747;
+  font-size: 15px;
+  ;
 }
